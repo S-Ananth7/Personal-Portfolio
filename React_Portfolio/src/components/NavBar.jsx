@@ -1,4 +1,4 @@
-// src/components/NavBar.jsx
+
 import React, { useState, useEffect } from "react";
 import "../index.css";
 

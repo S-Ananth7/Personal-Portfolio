@@ -32,7 +32,7 @@ const App = () => (
       .animate-loadContent{animation:loadContent .8s ease-out forwards;opacity:0;}
     `}</style>
 
-    {/* 🌟 Hero Section */}
+    
     <div
       id="landing"
       className="h-screen flex flex-col justify-center items-center 
@@ -72,22 +72,13 @@ const App = () => (
         </a>
       </div>
 
-      {/* <div className="mt-6">
-        <a
-          href="/Ananth_Surampudi_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-cyan-400 underline hover:text-cyan-300 text-lg font-medium"
-        >
-          📄 View Resume
-        </a>
-      </div> */}
+      
     </div>
 
-    {/* 🔗 Navbar */}
+    
     <NavBar links={navLinks} />
 
-    {/* 👤 About Section */}
+
     <Section id="about" title={<><User className="inline w-5 h-5 mr-2" />About Me</>}>
       <div className="max-w-4xl mx-auto text-center bg-gray-800 p-8 rounded-2xl shadow-2xl border border-gray-700">
         <p className="text-lg text-gray-300 leading-relaxed animate-loadContent">
@@ -100,7 +91,7 @@ const App = () => (
       </div>
     </Section>
 
-    {/* 💻 Skills */}
+    
     <Section id="skills" title={<><Code className="inline w-5 h-5 mr-2" />Technical Stack</>}>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {skillData.map((item, i) => (
@@ -109,7 +100,7 @@ const App = () => (
       </div>
     </Section>
 
-    {/* 💼 Experience */}
+    
     <Section id="experience" title={<><Briefcase className="inline w-5 h-5 mr-2" />Experience</>}>
       <div className="space-y-8 max-w-5xl mx-auto">
         {experienceData.map((item, i) => (
@@ -118,7 +109,7 @@ const App = () => (
       </div>
     </Section>
 
-    {/* 📁 Projects */}
+   
     <Section id="projects" title={<><FolderOpen className="inline w-5 h-5 mr-2" />Projects</>}>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectData.map((item, i) => (
@@ -127,7 +118,7 @@ const App = () => (
       </div>
     </Section>
 
-    {/* 📩 Contact */}
+   
     <Section id="contact" title={<><Mail className="inline w-5 h-5 mr-2" />Get In Touch</>}>
       <div className="text-center space-y-6 animate-loadContent">
         <p className="text-xl text-gray-300">
@@ -164,7 +155,6 @@ const App = () => (
       </div>
     </Section>
 
-    {/* ⚙️ Footer */}
     <footer className="bg-gray-950 text-gray-500 py-6 border-t border-cyan-900/50 text-center text-sm">
       © 2025 Ananth Surampudi. Built with React + Tailwind CSS.
     </footer>

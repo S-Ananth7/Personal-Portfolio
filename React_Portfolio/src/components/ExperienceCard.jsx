@@ -1,4 +1,4 @@
-// src/components/ExperienceCard.jsx
+
 import React from "react";
 
 const ExperienceCard = ({ title, company, duration, description }) => (
